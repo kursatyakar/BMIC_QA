@@ -1,0 +1,48 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1642milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1642"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62285"}
+{"logLevel":"info","message":"Listening on port:62285"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.calculateAndCompareBMI' and 'StepImplementation.calculateAndCompareBMI'"}
+{"logLevel":"debug","message":"Found Calculate BMI with weight {} and height {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.calculateAndCompareBMI' and 'StepImplementation.calculateAndCompareBMI'"}
+{"logLevel":"debug","message":"Found Ağırlık {} ve boy {} ile BMI hesapla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.UpdateWeight' and 'StepImplementation.UpdateWeight'"}
+{"logLevel":"debug","message":"Found weight {} change in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.DeleteButton' and 'StepImplementation.DeleteButton'"}
+{"logLevel":"debug","message":"Found click delete button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.UndoButton' and 'StepImplementation.UndoButton'"}
+{"logLevel":"debug","message":"Found click undo button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendText' and 'StepImplementation.sendText'"}
+{"logLevel":"debug","message":"Found Open browser in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.UpdateHeight' and 'StepImplementation.UpdateHeight'"}
+{"logLevel":"debug","message":"Found height {} change in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CallChange' and 'StepImplementation.CallChange'"}
+{"logLevel":"debug","message":"Found click button in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tclick delete button : public void DeleteButton()"}
+{"logLevel":"debug","message":"\tOpen browser : public void sendText() throws InterruptedException"}
+{"logLevel":"debug","message":"\tclick undo button : public void UndoButton()"}
+{"logLevel":"debug","message":"\tclick button : public void CallChange()"}
+{"logLevel":"debug","message":"\tCalculate BMI with weight {} and height {} : public void calculateAndCompareBMI(String key, String key2)"}
+{"logLevel":"debug","message":"\tAğırlık {} ve boy {} ile BMI hesapla : public void calculateAndCompareBMI(String key, String key2)"}
+{"logLevel":"debug","message":"\theight {} change : public void UpdateHeight(String key)"}
+{"logLevel":"debug","message":"\tweight {} change : public void UpdateWeight(String key)"}
+Tem 07, 2024 6:38:03 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
+{"logLevel":"debug","message":"Executing 'Open browser' using 'class StepImplementation.sendText"}
+{"logLevel":"debug","message":"Executing 'weight {} change' using 'class StepImplementation.UpdateWeight"}
+{"logLevel":"debug","message":"Executing 'height {} change' using 'class StepImplementation.UpdateHeight"}
+{"logLevel":"debug","message":"Executing 'click button' using 'class StepImplementation.CallChange"}
+{"logLevel":"debug","message":"Executing 'Calculate BMI with weight {} and height {}' using 'class StepImplementation.calculateAndCompareBMI"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
