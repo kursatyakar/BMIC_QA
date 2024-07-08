@@ -75,7 +75,7 @@ WebDriverWait   wait;
             Assert.assertEquals("BMI ERROR!!", calculatedBmiString, siteBmiValue);
         }
 
-    @Step("Değer okuma")
+    @Step("Değer oku")
     public void DegerOKu() {
         WebElement button = Driver.driver.findElement(By.xpath("//div[@class='data-container row']/div[1]//button[@class='delete-btn']"));
         button.click();

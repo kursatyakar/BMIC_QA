@@ -1823,3 +1823,7 @@ rectory: /Users/vrgsl/IdeaProjects/BMIcalculaterQA/specs
 08-07-2024 11:08:03.660 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ağırlık {} ve boy {} ile BMI hesapla" parameterizedStepValue:"Ağırlık <weight> ve boy <height> ile BMI hesapla" parameters:"weight" parameters:"height"}}
 08-07-2024 11:08:03.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Değer okuma"}
 08-07-2024 11:08:03.665 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Değer okuma" parameterizedStepValue:"Değer okuma"}}
+08-07-2024 11:42:20.937 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Değer oku"}
+08-07-2024 11:42:20.946 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Değer oku" parameterizedStepValue:"Değer oku"}}
+08-07-2024 11:42:20.950 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Değer oku"}
+08-07-2024 11:42:20.950 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Değer oku" parameterizedStepValue:"Değer oku"}}
